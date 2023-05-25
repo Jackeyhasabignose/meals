@@ -1,0 +1,58 @@
+[
+    {
+        "name": "傑森廚房",
+        "category": ["brunch"],
+        "filter": false
+    },
+    {
+        "name": "全家",
+        "category": ["brunch"],
+        "filter": false
+    },
+    {
+        "name": "88自助餐",
+        "category": ["buffet", "rice"],
+        "filter": false
+    },
+    {
+        "name": "實在好味鍋燒意麵",
+        "category": ["noodle"],
+        "filter": false
+    },
+    {
+        "name": "天下第一炒飯",
+        "category": ["rice"],
+        "filter": false
+    },
+    {
+        "name": "八方雲集",
+        "category": ["others"],
+        "filter": false
+    },
+    {
+        "name": "三媽臭臭鍋",
+        "category": ["others"],
+        "filter": false
+    },
+    {
+        "name": "韓式料理",
+        "category": ["rice", "noodle"],
+        "filter": false
+    },
+    {
+        "name": "小飯糰大飯糰",
+        "category": ["rice"],
+        "filter": false
+    },
+    {
+        "name": "媽媽滷肉飯",
+        "category": ["rice", "noodle"],
+        "filter": false
+    },
+    
+    {
+        "name": "吳家鴨香飯",
+        "category": ["rice", "noodle"],
+        "filter": false
+    }
+]

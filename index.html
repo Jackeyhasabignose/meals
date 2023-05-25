@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Ramdon</title>
+    <link rel="stylesheet" href="./spinner.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Spinner -->
+    <div id="loading" class="loading" onClick="hideSpinner()">
+        Loading&#8230;     
+    </div>
+
+    <main>
+        <h3>今天吃甚麼?</h3>
+        <h2>類型</h2>
+        <div class="mealType">
+            <div>
+                <label for="brunch">早午餐</label>
+                <input type="checkbox" id="brunch" value="brunch">
+            </div>
+            <div>
+                <label for="rice">飯</label>
+                <input type="checkbox" id="rice" value="rice">
+            </div>
+            <div>
+                <label for="noodle">麵</label>
+                <input type="checkbox" id="noodle" value="noodle">
+            </div>
+            <div>
+                <label for="buffet">自助餐</label>
+                <input type="checkbox" id="buffet" value="buffet">
+            </div>
+            <div>
+                <label for="others">其他</label>
+                <input type="checkbox" id="others" value="others">
+            </div>
+        </div>
+        <button type="button" id="roll" class="roll">Roll</button>
+        <h1>今天吃...<span id="order">甚麼呢?</span>!!</h1>
+    </main>
+
+    <script src="./main.js"></script>
+</body>
+</html>
